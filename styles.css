@@ -1,5 +1,5 @@
 .social-links img {
-    width: 24px;   /* smaller width */
-    height: 24px;  /* smaller height */
+    width: 24px;   
+    height: 24px;  
     transition: transform 0.2s;
 }
