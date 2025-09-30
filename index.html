@@ -4,6 +4,11 @@
         <title>My Website</title>
         <style>
             body {
+                margin: 0;
+                padding: 0;
+                min-height: 100vh;              
+                display: flex;
+                flex-direction: column;  
                 text-align: center;
                 font-family: Arial, sans-serif;
         }
@@ -25,7 +30,18 @@
         
         <a href="https://www.linkedin.com/in/davyd-prutskov-2a9519386/">LinkedIn</a>
         
-        
+        <script>
+            function toggleTheme() {
+                const body = document.body;
+                if (body.classList.contains("dark")) {
+                    body.classList.remove("dark");
+                    body.classList.add("light");
+                } else {
+                    body.classList.remove("light");
+                    body.classList.add("dark");
+                }
+            }
+        </script>
         
     </body>
     <footer style="background-color: black; color: white; text-align: center; padding: 10px;">
