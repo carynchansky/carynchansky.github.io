@@ -95,3 +95,39 @@ main {
         width: 200px;
     }
 }
+
+.resume-section {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 20px;
+    color: #e0e0e0;
+}
+
+.resume-section h1 {
+    font-size: 2.5em;
+    color: #f5d76e;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.resume-section h2 {
+    font-size: 1.5em;
+    color: #d0d0d0;
+    border-bottom: 1px solid #333;
+    padding-bottom: 5px;
+    margin-top: 30px;
+    font-weight: 500;
+}
+
+.resume-section p,
+.resume-section ul {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #bbb;
+}
+
+.resume-section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
