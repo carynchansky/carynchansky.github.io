@@ -1,47 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>My Resume</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davyd Prutskov - Resume</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-            line-height: 1.6;
-        }
-        h1, h2 {
-            text-align: center;
-        }
-        a {
-            display: block;
-            margin-top: 20px;
-            text-align: center;
-            text-decoration: none;
-            color: blue;
-        }
-    </style>
 </head>
 <body>
     <nav>
         <div class="nav-links">
-            <a href="index.html" class="active">About Me</a>
-            <a href="resume.html">Resume</a>
+            <a href="index.html">About Me</a>
+            <a href="resume.html" class="active">Resume</a>
         </div>
     </nav>
-    <h1>My Resume</h1>
 
-    <h2>Education</h2>
-    <p>Arvada West High School<br>
-       Warren Tech — studying Python and C#</p>
+    <main class="resume-section">
+        <h1>My Resume</h1>
 
-    <h2>Skills</h2>
-    <ul>
-        <li>Python programming</li>
-        <li>C# development</li>
-        <li>HTML & CSS basics</li>
-    </ul>
+        <section>
+            <h2>Education</h2>
+            <p>
+                <strong>Arvada West High School</strong><br>
+                <strong>Warren Tech</strong> — Studying Python and C#
+            </p>
+        </section>
 
-    <h2>Experience</h2>
-    <p></p>
+        <section>
+            <h2>Skills</h2>
+            <ul>
+                <li>Python Programming</li>
+                <li>HTML & CSS Basics</li>
+                <li>Cybersecurity Fundamentals</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Experience</h2>
+            <p>
+                <strong>Personal Projects</strong> — Developed small applications using Python.<br>
+                <strong>Team Collaboration</strong> — Worked with classmates on programming and cybersecurity projects.
+            </p>
+        </section>
+    </main>
 </body>
 </html>
