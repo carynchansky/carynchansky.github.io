@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap');
-
 body {
     margin: 0;
     font-family: 'Lexend', sans-serif;
@@ -43,7 +41,7 @@ main {
 
 .about-text h1 {
     font-size: 2.5em;
-    color: #f5d76e;
+    color: #ffffff;
     margin-bottom: 10px;
 }
 
