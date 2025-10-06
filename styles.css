@@ -1,70 +1,97 @@
 body {
     margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    background-color: #f5f5f5;
-    color: #333;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+nav {
+    background-color: #1c1c1c;
+    padding: 15px 0;
+    text-align: center;
+    border-bottom: 1px solid #2a2a2a;
+}
+
+.nav-links a {
+    color: #ccc;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    color: #fff;
 }
 
 main {
-    flex: 1;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 40px 20px;
-    text-align: center;
+    padding: 60px 10%;
+    gap: 50px;
 }
 
-h1 {
-    font-size: 3em;
+.about-text {
+    flex: 1;
+    max-width: 500px;
+}
+
+.about-text h1 {
+    font-size: 2.5em;
+    color: #f5d76e;
     margin-bottom: 10px;
 }
 
-h2 {
+.about-text h2 {
     font-size: 1.5em;
-    color: #666;
+    color: #d0d0d0;
     margin-bottom: 20px;
 }
 
-p {
+.about-text p {
     font-size: 1.1em;
-    max-width: 600px;
     line-height: 1.6;
+    color: #bbb;
 }
 
-a.resume-link {
-    display: inline-block;
+.profile-photo img {
+    width: 280px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+}
+
+.social-icons {
     margin-top: 20px;
-    padding: 10px 20px;
-    background-color: #0073e6;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
 }
 
-a.resume-link:hover {
-    background-color: #005bb5;
-}
-
-footer {
-    background-color: #2b2929;
-    color: white;
-    text-align: center;
-    padding: 15px 10px;
-}
-
-.social-links a {
-    margin: 0 10px;
+.social-icons a {
     display: inline-block;
+    margin-right: 12px;
 }
 
-.social-links img {
-    width: 30px;
-    height: 30px;
-    vertical-align: middle;
+.social-icons img {
+    width: 28px;
+    height: 28px;
+    filter: brightness(0) invert(1);
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+    filter: brightness(0.8) invert(1);
+}
+
+@media (max-width: 800px) {
+    main {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-photo img {
+        width: 200px;
+    }
 }
