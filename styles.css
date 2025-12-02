@@ -143,13 +143,13 @@ main {
 
 .light-theme * {
     color: #222 !important;   
-    border-color: #ccc !important;
+    border-color: #ffffff !important;
 }
 
 .light-theme h1,
 .light-theme .about-text h1,
 .light-theme .resume-section h1 {
-    color: #c09a20 !important; 
+    color: #ffffff !important; 
 }
 
 .light-theme h2 {
