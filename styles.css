@@ -187,3 +187,29 @@ main {
 .light-theme .social-icons img {
     filter: none !important;
 }
+
+#fortune-btn {
+    background: none;
+    border: 1px solid #444;
+    color: #ccc;
+    padding: 6px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: 0.3s;
+    font-family: inherit;
+}
+
+#fortune-btn:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.light-theme #fortune-btn {
+    border-color: #999;
+    color: #222;
+}
+
+.light-theme #fortune-btn:hover {
+    background-color: #ddd;
+}
