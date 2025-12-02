@@ -162,7 +162,7 @@ main {
 
 .light-theme nav {
     background-color: #f8f8f8 !important;
-    border-bottom: 1px solid #ddd !important;
+    border-bottom: 1px solid #000000 !important;
 }
 
 .light-theme .nav-links a {
