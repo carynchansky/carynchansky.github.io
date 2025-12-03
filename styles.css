@@ -162,7 +162,7 @@ main {
 
 .light-theme nav {
     background-color: #f8f8f8 !important;
-    border-bottom: 1px solid #000000 !important;
+    border-bottom: 1px solid #ffffff !important;
 }
 
 .light-theme .nav-links a {
@@ -246,11 +246,6 @@ nav {
 #fortune-btn:hover {
     background-color: #333;
     color: #fff;
-}
-
-.light-theme nav {
-    background-color: #fafafa;
-    border-bottom-color: #ddd;
 }
 
 .light-theme #theme-toggle,
