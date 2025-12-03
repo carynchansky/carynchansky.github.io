@@ -149,7 +149,7 @@ main {
 .light-theme h1,
 .light-theme .about-text h1,
 .light-theme .resume-section h1 {
-    color: #ffffff !important; 
+    color: #000000 !important; 
 }
 
 .light-theme h2 {
